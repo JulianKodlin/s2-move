@@ -3708,7 +3708,7 @@
     </svg>
     </div>
 
-<!--
+
     <script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.5.0/dist/svg-pan-zoom.min.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.3.1.js"
@@ -3756,7 +3756,7 @@
 
     })
     </script>
--->
+
 
     <script>
 
@@ -3777,10 +3777,7 @@
 
 
         mc.on("pinch rotate", function(ev) {
-            document.getElementById("floor3").style.opacity = 0;
-            document.getElementById("informationLevel3").style.opacity = 0;
-            document.getElementById("informationLevel2").style.opacity = 0;
-            document.getElementById("informationLevel1").style.opacity = 1;
+            svgPanZoom.zoomIn()
         });
 
     </script>
