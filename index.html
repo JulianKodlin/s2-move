@@ -3773,7 +3773,10 @@
 
 
         mc.on("pinch rotate", function(ev) {
-            svgPanZoom.zoom(15);
+            document.getElementById("floor3").style.opacity = 1;
+            document.getElementById("informationLevel3").style.opacity = 1;
+            document.getElementById("informationLevel2").style.opacity = 0;
+            document.getElementById("informationLevel1").style.opacity = 0;
         });
 
     </script>
