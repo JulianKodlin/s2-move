@@ -3775,7 +3775,10 @@
 
 
         mc.on("example", function(ev) {
-            myElement.textContent += ev.type +" ";
+            document.getElementById("floor3").style.opacity = 0;
+            document.getElementById("informationLevel3").style.opacity = 0;
+            document.getElementById("informationLevel2").style.opacity = 0;
+            document.getElementById("informationLevel1").style.opacity = 0;
         });
 
     </script>
@@ -3784,7 +3787,7 @@
 </html>
 <style>
 .myMap {
-    width: 2000px;
+    width: 500px;
     height: 1000px;
     position: fixed;
 
@@ -3794,7 +3797,7 @@
 
 
 .mySvg {
-    width: 2000px;
+    width: 500px;
     height: 1000px;
     object-fit: cover;
 
