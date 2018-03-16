@@ -3761,7 +3761,7 @@
 
     <script>
 
-        var myElement = document.getElementById('myElement');
+        var myElement = document.getElementById('myMap');
 
         var mc = new Hammer.Manager(myElement);
 
@@ -3786,10 +3786,28 @@
 </body>
 </html>
 <style>
-#myElement {
-  background: silver;
-  height: 300px;
-  text-align: center;
-  font: 30px/300px Helvetica, Arial, sans-serif;
+.myMap {
+    width: 2000px;
+    height: 1000px;
+    position: fixed;
+
+
 }
+
+
+
+.mySvg {
+    width: 2000px;
+    height: 1000px;
+    object-fit: cover;
+
+    position: fixed;
+}
+
+#svg-pan-zoom-controls {
+    display: none;
+}
+
+
+
 </style>
