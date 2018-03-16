@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="user-scalable=no,
-    width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My SVG</title>
+    <link rel="stylesheet" href="">
 </head>
 <body>
 
     <script src="https://hammerjs.github.io/dist/hammer.js"></script>
 
     <div id="myMap">
-
     <svg class="mySvg" id="example" width="20000px" height="20000px" viewBox="0 0 20000 20000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
         <desc>Created with Sketch.</desc>
@@ -3705,17 +3706,13 @@
             </g>
         </g>
     </svg>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.5.0/dist/svg-pan-zoom.min.js"></script>
-
-
-
-
     <script
       src="https://code.jquery.com/jquery-3.3.1.js"
       integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
       crossorigin="anonymous"></script>
-
     <script>
     $(function() {
       panZoomInstance = svgPanZoom('#example', {
