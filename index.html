@@ -3728,7 +3728,7 @@ $(function() {
     controlIconsEnabled: true,
     fit: true,
     center: true,
-    minZoom: 1.7,
+    minZoom: 1.9,
     maxZoom: 25,
   });
 
@@ -3766,18 +3766,21 @@ $(function() {
 <style>
 
     .myMap {
-        width: 2000px;
-        height: 1000px;
+        width: 100vw;
+        height: 100vh;
         position: fixed;
+
 
 
     }
 
-
+    .body{
+        margin:0;
+    }
 
     .mySvg {
-        width: 2000px;
-        height: 1000px;
+        width: 100%;
+        height: 100%;
         object-fit: cover;
 
         position: fixed;
